@@ -1,0 +1,131 @@
+*{
+margin:0px;
+padding: 0px;
+}
+
+body{
+    background:#EE4321 url(../img/fondo\ pag\ 2.jpg) repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:azure;
+    width: 100%;
+}
+
+header{
+    overflow: hidden;
+    width: auto;
+    margin: 10px,auto,5px,auto;
+    background:#4B302A width;
+}
+
+header #image{
+    width: 100%;
+    height: 150px;
+}
+
+header #image figure{
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    height: 250px;
+    background: url(../img/banner\ redes.jpg);
+    border-radius: 6px;
+}
+
+header #menu{
+    float: right;
+    padding: 5px, 0;
+    width: 550px;
+}
+
+header #menu ul li{
+    list-style: none;
+    float: left;
+}
+header #menu ul li a{
+    display: block;
+    margin-left: 5px;
+    padding: 7px;
+    text-decoration: none;
+    text-align:center ;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    color: azure;
+}
+
+header #menu ul li a :hover, header #menu .pagactual {
+    text-decoration: none;
+    background: #8f250f;
+    border-radius: 5px;
+    color: #e2d0d0;
+}
+
+section{
+    width:100%;
+    overflow: hidden;
+    background: #333131;
+}
+
+section #contenedor{
+    overflow: hidden;
+    width: 800px;
+    margin:  0px, auto,5px,auto;
+    float:left;
+}
+
+section #contenedor aside{
+    float:left;
+    width: 220px;
+}
+
+section #contenedor aside h2{
+    padding: 0px 0px 10px 0px;
+    color: #e2d0d0;
+    letter-spacing: 28px;
+    font-size: 2em;
+}
+
+section #contenedor aside ul li{
+    list-style: none;
+    padding: 15px 0px;
+    border-top: dashed #e2d0d0;
+}
+
+section #contenedor aside ul li a{
+    text-decoration: none;
+    color:#e2d0d0;
+    font-size: 12px;
+}
+
+section #contenedor article{
+    float: right;
+    width: 570px;
+}
+
+section #contenedor article h2{
+    color:#e2d0d0;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px, 5px;
+}
+
+section #contenedor article  .contenido{
+    text-align:justify ;
+    font-size: 16px;
+    padding: 5px;
+    line-height: 150%;
+}
+
+footer{
+    margin: 0px,auto;
+    padding: 20px ,0px;
+}
+
+footer p{
+    font-size: 16px;
+    color: #e2d0d0;
+    text-align:center ;
+    line-height: 150%;
+}
